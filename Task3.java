@@ -4,10 +4,10 @@ import java.util.Vector;
 public class test3 {
     public static void main(String[] args) {
         Vector<String> v=new Vector<>();
-        v.add("PRINCE1");
-        v.add("PRINCE2");
-        v.add("PRINCE3");
-        v.add("PRINCE4");
+        v.add("VJ1");
+        v.add("VJ2");
+        v.add("VJ3");
+        v.add("VJ4");
     //capacity() tells us the no. of elements the vector is holding default its value is 10 and each time it exceeds its max value then it doubles its capacity Ex-if no. of elements becomes 11 then capacity of vector will become 20 and like this 40,80,160 etc
         System.out.println(v);
         System.out.println(v.capacity());
