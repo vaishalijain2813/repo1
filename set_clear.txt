@@ -1,0 +1,16 @@
+import java.util.*;  
+public class HashSetClearExample1 {  
+    public static void main(String[] args) {  
+        //Create hash set  
+          HashSet<String> hset = new HashSet<String>();        
+          //Clear elements to hash set  
+          hset.add("JTP");   
+          hset.add("SSSIT");  
+          hset.add("DFC");    
+          //Checking elements in hash set  
+          System.out.println("Hash set Elements: "+ hset);  
+          //Clear set values  
+          hset.clear();  
+          System.out.println("Hash set elements after clear: "+ hset);   
+          }  
+}  

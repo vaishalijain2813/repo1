@@ -1,0 +1,14 @@
+import java.util.*;  
+public class HashSetSizeExample1 {  
+    public static void main(String[] args) {  
+        HashSet<String> set=new HashSet<String>();    
+        set.add("Ravi");    
+        set.add("Vijay");    
+        set.add("Mohan");    
+        set.add("Ajay");    
+        //Print the HashSet  
+            System.out.println("HashSet: " + set);  
+            //Displaying the size of the HashSet  
+            System.out.println("The size of the set is: " + set.size());  
+    }  
+}  

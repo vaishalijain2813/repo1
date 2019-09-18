@@ -1,0 +1,19 @@
+import java.util.*;    
+public class HashSetContainsExample1 {    
+    public static void main(String[] args) {    
+        //Create hash set  
+        HashSet<Integer> hset = new HashSet<Integer>();        
+        //Add elements to hash set  
+        hset.add(11);   
+        hset.add(21);  
+        hset.add(15);    
+        hset.add(110);   
+        hset.add(151);   
+        //Print HashSet elements  
+        System.out.println("Hash set Elements: "+ hset);  
+        //Check for "110" in the set  
+      System.out.println("Does the Set contains '110'? :- "+hset.contains(110));      
+      //Check if the Set contains "555"  
+      System.out.println("Does the Set contains '555'? :- "+hset.contains(555));  
+      }    
+}    
