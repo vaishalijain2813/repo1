@@ -1,0 +1,602 @@
+{
+	"id": "5bc3d1f6-1537-4206-8ce9-3d2342fc2898",
+	"name": "REGISTER",
+	"allTests": [],
+	"timestamp": "2019-09-24T09:58:29.555Z",
+	"collection_id": "1278bc08-146c-4966-891b-3309ae727e12",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "1278bc08-146c-4966-891b-3309ae727e12",
+		"name": "REGISTER",
+		"description": "",
+		"auth": null,
+		"events": null,
+		"variables": [],
+		"order": [
+			"69f4e40c-c54a-4451-9b78-6cc53f116e97",
+			"ad32d98d-ca1d-4752-ad6d-a3787a53f6fe",
+			"ed9ab297-b9a5-4ae6-88f8-3cc6af24054a",
+			"f9aa3529-9dd8-4ed1-8c39-4b7c92b49220",
+			"869dddb9-0482-4352-9711-009f669b499b",
+			"2f120cb1-de71-4c07-a982-b3fea75a0cee",
+			"3c68006b-d887-4834-bf1f-7da23777d388",
+			"68a5a88b-fc9d-4bd8-ae92-23eab0cd8474",
+			"913f2f5b-31af-4f9c-8906-4e43baa87956",
+			"1bb1fb37-b1ca-4881-82d3-5fd21dc34b9f",
+			"0ae49ff9-158e-4467-8579-a0452dab8c81",
+			"9a280661-19d8-452a-81d7-ee18af65ec7a",
+			"2ffba378-5e9f-45cd-a827-06ab3728cdee"
+		],
+		"folders_order": [],
+		"owner": "8737487",
+		"favorite": false,
+		"isFavorite": true
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [
+		{
+			"key": "email",
+			"value": "dynamic",
+			"enabled": true
+		}
+	],
+	"results": [
+		{
+			"name": "1.Enter valid email and password contains all alphabets",
+			"id": "69f4e40c-c54a-4451-9b78-6cc53f116e97",
+			"url": "http://35.238.49.27:8000/user/register",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity",
+				"detail": {
+					"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+				}
+			},
+			"tests": {
+				"Status code is 422": true,
+				"Your test name": true
+			},
+			"testPassFailCounts": {
+				"Status code is 422": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Your test name": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"288"
+			],
+			"allTests": [
+				{
+					"Status code is 422": true,
+					"Your test name": true
+				}
+			],
+			"time": "288",
+			"totalRequestTime": "288",
+			"iterationResults": {}
+		},
+		{
+			"name": "2.Enter valid email and password contains all Numbers.",
+			"id": "ad32d98d-ca1d-4752-ad6d-a3787a53f6fe",
+			"url": "http://35.238.49.27:8000/user/register",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity",
+				"detail": {
+					"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"288"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "288",
+			"totalRequestTime": "288",
+			"iterationResults": {}
+		},
+		{
+			"name": "3.Enter valid email and password with all special characters.",
+			"id": "ed9ab297-b9a5-4ae6-88f8-3cc6af24054a",
+			"url": "http://35.238.49.27:8000/user/register",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity",
+				"detail": {
+					"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"313"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "313",
+			"totalRequestTime": "313",
+			"iterationResults": {}
+		},
+		{
+			"name": "4.Enter valid email and password with combination of alphabets,numbers and special characters",
+			"id": "f9aa3529-9dd8-4ed1-8c39-4b7c92b49220",
+			"url": "http://35.238.49.27:8000/user/register",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity",
+				"detail": {
+					"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"288"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "288",
+			"totalRequestTime": "288",
+			"iterationResults": {}
+		},
+		{
+			"name": "5.Enter valid email and password of one to seven characters.",
+			"id": "869dddb9-0482-4352-9711-009f669b499b",
+			"url": "http://35.238.49.27:8000/user/register",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity",
+				"detail": {
+					"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"297"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "297",
+			"totalRequestTime": "297",
+			"iterationResults": {}
+		},
+		{
+			"name": "6.Enter valid email and blank password.",
+			"id": "2f120cb1-de71-4c07-a982-b3fea75a0cee",
+			"url": "http://35.238.49.27:8000/user/register",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity",
+				"detail": {
+					"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"282"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "282",
+			"totalRequestTime": "282",
+			"iterationResults": {}
+		},
+		{
+			"name": "7.Enter invalid email with invalid password",
+			"id": "3c68006b-d887-4834-bf1f-7da23777d388",
+			"url": "http://35.238.49.27:8000/user/register",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity",
+				"detail": {
+					"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"283"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "283",
+			"totalRequestTime": "283",
+			"iterationResults": {}
+		},
+		{
+			"name": "8.Enter invalid email with valid password",
+			"id": "68a5a88b-fc9d-4bd8-ae92-23eab0cd8474",
+			"url": "http://35.238.49.27:8000/user/register",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity",
+				"detail": {
+					"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"277"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "277",
+			"totalRequestTime": "277",
+			"iterationResults": {}
+		},
+		{
+			"name": "9.Enter blank email and valid password",
+			"id": "913f2f5b-31af-4f9c-8906-4e43baa87956",
+			"url": "http://35.238.49.27:8000/user/register",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity",
+				"detail": {
+					"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"288"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "288",
+			"totalRequestTime": "288",
+			"iterationResults": {}
+		},
+		{
+			"name": "10.Enter blank email with invalid password",
+			"id": "1bb1fb37-b1ca-4881-82d3-5fd21dc34b9f",
+			"url": "http://35.238.49.27:8000/user/register",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found",
+				"detail": {
+					"name": "Not Found",
+					"detail": "The requested resource could not be found but may be available again in the future. Subsequent requests by the client are permissible."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"293"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "293",
+			"totalRequestTime": "293",
+			"iterationResults": {}
+		},
+		{
+			"name": "11.Enter blank email and blank password.",
+			"id": "0ae49ff9-158e-4467-8579-a0452dab8c81",
+			"url": "http://35.238.49.27:8000/user/register",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity",
+				"detail": {
+					"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"283"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "283",
+			"totalRequestTime": "283",
+			"iterationResults": {}
+		},
+		{
+			"name": "12.Enter valid email with password contains spaces in between characters.",
+			"id": "9a280661-19d8-452a-81d7-ee18af65ec7a",
+			"url": "http://35.238.49.27:8000/user/register",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity",
+				"detail": {
+					"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"290"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "290",
+			"totalRequestTime": "290",
+			"iterationResults": {}
+		},
+		{
+			"name": "13.Enter valid email with password contains all spaces.",
+			"id": "2ffba378-5e9f-45cd-a827-06ab3728cdee",
+			"url": "http://35.238.49.27:8000/user/register",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity",
+				"detail": {
+					"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"288"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "288",
+			"totalRequestTime": "288",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 2,
+	"totalFail": 0,
+	"totalTime": 3758,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "1.Enter valid email and password contains all alphabets",
+			"id": "69f4e40c-c54a-4451-9b78-6cc53f116e97",
+			"url": "http://35.238.49.27:8000/user/register",
+			"time": "2019-09-24T09:58:29.555Z",
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity",
+				"detail": {
+					"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 422": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Your test name": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "2.Enter valid email and password contains all Numbers.",
+			"id": "ad32d98d-ca1d-4752-ad6d-a3787a53f6fe",
+			"url": "http://35.238.49.27:8000/user/register",
+			"time": "2019-09-24T09:58:29.555Z",
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity",
+				"detail": {
+					"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "3.Enter valid email and password with all special characters.",
+			"id": "ed9ab297-b9a5-4ae6-88f8-3cc6af24054a",
+			"url": "http://35.238.49.27:8000/user/register",
+			"time": "2019-09-24T09:58:29.555Z",
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity",
+				"detail": {
+					"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "4.Enter valid email and password with combination of alphabets,numbers and special characters",
+			"id": "f9aa3529-9dd8-4ed1-8c39-4b7c92b49220",
+			"url": "http://35.238.49.27:8000/user/register",
+			"time": "2019-09-24T09:58:29.555Z",
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity",
+				"detail": {
+					"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "5.Enter valid email and password of one to seven characters.",
+			"id": "869dddb9-0482-4352-9711-009f669b499b",
+			"url": "http://35.238.49.27:8000/user/register",
+			"time": "2019-09-24T09:58:29.555Z",
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity",
+				"detail": {
+					"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "6.Enter valid email and blank password.",
+			"id": "2f120cb1-de71-4c07-a982-b3fea75a0cee",
+			"url": "http://35.238.49.27:8000/user/register",
+			"time": "2019-09-24T09:58:29.555Z",
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity",
+				"detail": {
+					"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "7.Enter invalid email with invalid password",
+			"id": "3c68006b-d887-4834-bf1f-7da23777d388",
+			"url": "http://35.238.49.27:8000/user/register",
+			"time": "2019-09-24T09:58:29.555Z",
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity",
+				"detail": {
+					"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "8.Enter invalid email with valid password",
+			"id": "68a5a88b-fc9d-4bd8-ae92-23eab0cd8474",
+			"url": "http://35.238.49.27:8000/user/register",
+			"time": "2019-09-24T09:58:29.555Z",
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity",
+				"detail": {
+					"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "9.Enter blank email and valid password",
+			"id": "913f2f5b-31af-4f9c-8906-4e43baa87956",
+			"url": "http://35.238.49.27:8000/user/register",
+			"time": "2019-09-24T09:58:29.555Z",
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity",
+				"detail": {
+					"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "10.Enter blank email with invalid password",
+			"id": "1bb1fb37-b1ca-4881-82d3-5fd21dc34b9f",
+			"url": "http://35.238.49.27:8000/user/register",
+			"time": "2019-09-24T09:58:29.555Z",
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found",
+				"detail": {
+					"name": "Not Found",
+					"detail": "The requested resource could not be found but may be available again in the future. Subsequent requests by the client are permissible."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "11.Enter blank email and blank password.",
+			"id": "0ae49ff9-158e-4467-8579-a0452dab8c81",
+			"url": "http://35.238.49.27:8000/user/register",
+			"time": "2019-09-24T09:58:29.555Z",
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity",
+				"detail": {
+					"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "12.Enter valid email with password contains spaces in between characters.",
+			"id": "9a280661-19d8-452a-81d7-ee18af65ec7a",
+			"url": "http://35.238.49.27:8000/user/register",
+			"time": "2019-09-24T09:58:29.555Z",
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity",
+				"detail": {
+					"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "13.Enter valid email with password contains all spaces.",
+			"id": "2ffba378-5e9f-45cd-a827-06ab3728cdee",
+			"url": "http://35.238.49.27:8000/user/register",
+			"time": "2019-09-24T09:58:29.555Z",
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity",
+				"detail": {
+					"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
